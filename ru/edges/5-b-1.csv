@@ -1,0 +1,5 @@
+From,To
+concept.AGE,concept.REF_AREA
+concept.AGE,concept.SEX
+concept.AGE,concept.URBANISATION
+concept.AGE,concept.EDUCATION_LEV
