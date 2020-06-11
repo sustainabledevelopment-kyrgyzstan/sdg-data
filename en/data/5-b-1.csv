@@ -1,21 +1,23 @@
-Year,Reference area,Sex,Age,Degree of urbanisation,Education level,Value
-2018,,,15 years old and over,,,91.8
-2018,,,15 years old and over,Urban,,94.9
-2018,,,15 years old and over,Rural,,89.9
-2018,,Male,15 years old and over,,,92.8
-2018,,Female,15 years old and over,,,91.0
-2018,Batken,,15 years old and over,,,91.1
-2018,Jalal-Abad,,15 years old and over,,,90.6
-2018,Issyk-Kul,,15 years old and over,,,92.1
-2018,Naryn,,15 years old and over,,,89.4
-2018,Osh,,15 years old and over,,,87.6
-2018,Talas,,15 years old and over,,,91.5
-2018,Chui,,15 years old and over,,,94.6
-2018,Bishkek (city),,15 years old and over,,,97.0
-2018,Osh (city),,15 years old and over,,,88.3
-2018,,,15 to 28 years old,,,90.9
-2018,,,15 years old and over,,Primary education,58.1
-2018,,,15 years old and over,,Lower secondary education,84.0
-2018,,,15 years old and over,,Secondary and post-secondary non-tertiary education (intermediate),92.8
-2018,,,15 years old and over,,Short-cycle tertiary education,96.4
-2018,,,15 years old and over,,Bachelor’s or equivalent level,98.1
+Year,Geographical area,Местность,Sex,Возраст,Образование,Value
+2018,,,,,,91.8
+2018,,Городская,,,,94.9
+2018,,Сельская,,,,89.9
+2018,,,Male,,,92.8
+2018,,,Female,,,91.0
+2018,Batken Oblast,,,,,91.1
+2018,Джалал-Абадская область,,,,,90.6
+2018,Иссык-Кульская область,,,,,92.1
+2018,Нарынская область,,,,,89.4
+2018,Ошская область,,,,,87.6
+2018,Таласская область,,,,,91.5
+2018,Чуйская область,,,,,94.6
+2018,г.Бишкек,,,,,97.0
+2018,г.Ош,,,,,88.3
+2018,,,,"Молодёжь, 15-28 лет",,90.9
+2018,,,,Взрослое население трудоспособного возраста (от 29 лет),,95.9
+2018,,,,"Старше трудоспособного возраста (женщины 58 лет и старше, мужчины 63 лет и старше)",,78.8
+2018,,,,,Дошкольное или нет/Начальное,58.1
+2018,,,,,Основное общее,84.0
+2018,,,,,Среднее общее,92.8
+2018,,,,,Профессиональное начальное/среднее,96.4
+2018,,,,,Высшее,98.1
