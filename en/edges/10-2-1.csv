@@ -1,5 +1,5 @@
 From,To
-Показатель,Geographical area
-Показатель,Местность
-Показатель,Sex
-Показатель,Возраст
+Income or wealth quantile,Reference area
+Income or wealth quantile,Sex
+Income or wealth quantile,Age
+Income or wealth quantile,Degree of urbanisation

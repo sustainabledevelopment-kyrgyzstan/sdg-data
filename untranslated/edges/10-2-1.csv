@@ -1,5 +1,5 @@
 From,To
-Показатель,Территория
-Показатель,Местность
-Показатель,Пол
-Показатель,Возраст
+concept.INCOME_WEALTH_QUANTILE,concept.REF_AREA
+concept.INCOME_WEALTH_QUANTILE,concept.SEX
+concept.INCOME_WEALTH_QUANTILE,concept.AGE
+concept.INCOME_WEALTH_QUANTILE,concept.URBANISATION
