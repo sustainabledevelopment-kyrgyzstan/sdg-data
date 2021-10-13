@@ -1,24 +1,28 @@
 Disaggregation,Number of indicators,Number of values
-concept.ACTIVITY,5,22
-concept.AGE,23,56
-concept.COMPOSITE_BREAKDOWN,20,98
-concept.DISABILITY_STATUS,7,7
-concept.EDUCATION_LEV,19,10
-concept.INCOME_WEALTH_QUANTILE,19,7
-concept.OCCUPATION,1,4
-concept.PRODUCT,1,10
-concept.REF_AREA,64,9
-concept.SEX,33,2
-concept.URBANISATION,25,2
-Возраст (лет),1,9
-Возраст,1,5
-Квинтиль индекса благосостояния,2,10
+ACTIVITY,5,22
+AGE,24,59
+COMMENT_OBS,10,11
+COMMENT_TS,2,3
+COMPOSITE_BREAKDOWN,21,104
+DISABILITY_STATUS,7,7
+EDUCATION_LEV,20,10
+Функциональные трудности у матери,1,3
+Функциональные трудности у ребенка,1,2
+Функциональные трудности (возраст: 18-49лет),1,2
+INCOME_WEALTH_QUANTILE,19,7
+Квинтиль индекса благосостояния,3,10
 Местность,3,4
 Образование главы домохозяйства,1,5
 Образование матери,1,4
-Образование,1,4
-Показатель,4,9
+OCCUPATION,1,4
+Показатель,3,6
 Пол,2,2
+PRODUCT,1,10
+REF_AREA,65,9
+SEX,39,2
 Территория,5,11
-Функциональные трудности у матери,1,3
-Функциональные трудности у ребенка,1,2
+UNIT_MULT,5,3
+URBANISATION,27,2
+Уровень образования,1,4
+Возраст (лет),1,9
+Возраст,1,5
