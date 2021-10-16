@@ -1692,6 +1692,38 @@
       "title": "Площадь зеленых насаждений и массивов в населенных пунктах в расчете на 1000 человек"
     },
     {
+      "path": "15-1-2/data.csv",
+      "name": "15-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Показатель",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Доля важных с точки зрения биологического разнообразия районов суши и пресноводных районов, находящихся под охраной",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.15-1-2-title"
+    },
+    {
       "path": "2-c-1-1b/data.csv",
       "name": "2-c-1-1b",
       "profile": "tabular-data-resource",
@@ -4567,7 +4599,7 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
@@ -6452,6 +6484,24 @@
             "type": "string"
           },
           {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "KG05",
+                "KG03",
+                "KG02",
+                "KG04",
+                "KG06",
+                "KG07",
+                "KG08",
+                "KG11",
+                "KG21",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
@@ -6572,40 +6622,6 @@
         ]
       },
       "title": "global_indicators.16-2-1-title"
-    },
-    {
-      "path": "15-c-1-1/data.csv",
-      "name": "15-c-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_SPC_MAMM",
-                "_L_SPC_BIRD",
-                "_L_SPC_AMPH_REP",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Доля диких животных, являющихся объектом браконьерства или незаконного оборота от всех видов соответствующего класса"
     },
     {
       "path": "5-5-1/data.csv",
@@ -6849,38 +6865,6 @@
         ]
       },
       "title": "global_indicators.11-5-1-title"
-    },
-    {
-      "path": "15-1-2/data.csv",
-      "name": "15-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Показатель",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Доля важных с точки зрения биологического разнообразия районов суши и пресноводных районов, находящихся под охраной",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.15-1-2-title"
     },
     {
       "path": "10-3-1/data.csv",
