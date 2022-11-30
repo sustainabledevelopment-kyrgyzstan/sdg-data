@@ -16,38 +16,7 @@
             "title": "Год"
           },
           {
-            "name": "Reference area",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Batken",
-                "Jalal-Abad",
-                "Issyk-Kul",
-                "Naryn",
-                "Osh",
-                "Talas",
-                "Chui",
-                "Bishkek (city)",
-                "Osh (city)",
-                ""
-              ]
-            },
-            "title": "Reference area"
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Male",
-                "Female",
-                ""
-              ]
-            },
-            "title": "Sex"
-          },
-          {
-            "name": "Территория",
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
@@ -58,15 +27,15 @@
                 "Ошская область",
                 "Таласская область",
                 "Чуйская область",
-                "г.Бишкек",
-                "г.Ош",
+                "г. Бишкек",
+                "г. Ош",
                 ""
               ]
             },
             "title": "Территория"
           },
           {
-            "name": "Пол",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
@@ -78,8 +47,13 @@
             "title": "Пол"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
