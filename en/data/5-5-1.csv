@@ -1,16 +1,24 @@
-Year,Value
-2007,25.6
-2008,25.6
-2009,25.6
-2010,23.5
-2011,20.8
-2012,20.8
-2013,22.5
-2014,21.7
-2015,21.7
-2016,15.8
-2017,16.7
-2018,15.8
-2019,16.7
-2020,16.7
-2021,20.5
+Year,SERIES,Value
+2007,Proportion of seats held by women in national parliaments (% of total number of seats),25.6
+2008,Proportion of seats held by women in national parliaments (% of total number of seats),25.6
+2009,Proportion of seats held by women in national parliaments (% of total number of seats),25.6
+2010,Proportion of seats held by women in national parliaments (% of total number of seats),23.5
+2011,Proportion of seats held by women in national parliaments (% of total number of seats),20.8
+2012,Proportion of seats held by women in national parliaments (% of total number of seats),20.8
+2013,Proportion of seats held by women in national parliaments (% of total number of seats),22.5
+2014,Proportion of seats held by women in national parliaments (% of total number of seats),21.7
+2015,Proportion of seats held by women in national parliaments (% of total number of seats),21.7
+2016,Proportion of seats held by women in national parliaments (% of total number of seats),15.8
+2017,Proportion of seats held by women in national parliaments (% of total number of seats),16.7
+2018,Proportion of seats held by women in national parliaments (% of total number of seats),15.8
+2019,Proportion of seats held by women in national parliaments (% of total number of seats),16.7
+2020,Proportion of seats held by women in national parliaments (% of total number of seats),16.7
+2021,Proportion of seats held by women in national parliaments (% of total number of seats),20.5
+2022,Proportion of seats held by women in national parliaments (% of total number of seats),21.1
+2016,Proportion of seats held by women in local governments (% of total number of seats),15.61
+2017,Proportion of seats held by women in local governments (% of total number of seats),15.09
+2018,Proportion of seats held by women in local governments (% of total number of seats),14.96
+2019,Proportion of seats held by women in local governments (% of total number of seats),15.16
+2020,Proportion of seats held by women in local governments (% of total number of seats),14.98
+2021,Proportion of seats held by women in local governments (% of total number of seats),31.55
+2022,Proportion of seats held by women in local governments (% of total number of seats),36.46
