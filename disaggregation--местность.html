@@ -51,15 +51,41 @@
                 .table-striped tbody tr:nth-of-type(2n+1) {
                     background-color: #f3f2f1;
                 }
+                #skiplink {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    z-index: 10000;
+                    width: 250px;
+                    margin-left: -125px;
+                    padding: 10px;
+                    background: white;
+                    text-align: center;
+                    border: 1px solid #0b0c0c;
+                    color: #0b0c0c;
+                    display: block;
+                }
+                .sr-only-focusable:not(:focus):not(:focus-within) {
+                    position: absolute !important;
+                    width: 1px !important;
+                    height: 1px !important;
+                    padding: 0 !important;
+                    margin: -1px !important;
+                    overflow: hidden !important;
+                    clip: rect(0, 0, 0, 0) !important;
+                    white-space: nowrap !important;
+                    border: 0 !important;
+                }
             </style>
         </head>
         <body>
+            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">Build docs</a>
                 </div>
             </nav>
-            <main role="main">
+            <main id="main-content" role="main">
                 <div class="container">
                     <h1 style="margin:20px 0">Disaggregation: Местность</h1>
                     <div>
@@ -93,31 +119,31 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="disaggregation-value--городская.html">Городская</a></td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td><a href="disaggregation-value--городская_.html">городская</a></td>
+      <td><a href="disaggregation-value--городская.html">городская</a></td>
       <td>5</td>
       <td>2</td>
     </tr>
     <tr>
-      <td><a href="disaggregation-value--сельская.html">Сельская</a></td>
+      <td><a href="disaggregation-value--городская_.html">Городская</a></td>
       <td>1</td>
       <td>1</td>
     </tr>
     <tr>
-      <td><a href="disaggregation-value--сельская_.html">сельская</a></td>
+      <td><a href="disaggregation-value--сельская.html">сельская</a></td>
       <td>5</td>
       <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--сельская_.html">Сельская</a></td>
+      <td>1</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
             <script type="text/javascript">
             var sdgBuild = sdgBuild || {};
             sdgBuild.tables = sdgBuild.tables || {};
-            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f.html\">\u0413\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f_.html\">\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f<\/a>","Disaggregation combinations using this value":5,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--\u0441\u0435\u043b\u044c\u0441\u043a\u0430\u044f.html\">\u0421\u0435\u043b\u044c\u0441\u043a\u0430\u044f<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--\u0441\u0435\u043b\u044c\u0441\u043a\u0430\u044f_.html\">\u0441\u0435\u043b\u044c\u0441\u043a\u0430\u044f<\/a>","Disaggregation combinations using this value":5,"Number of indicators":2}];
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f.html\">\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f<\/a>","Disaggregation combinations using this value":5,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f_.html\">\u0413\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--\u0441\u0435\u043b\u044c\u0441\u043a\u0430\u044f.html\">\u0441\u0435\u043b\u044c\u0441\u043a\u0430\u044f<\/a>","Disaggregation combinations using this value":5,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--\u0441\u0435\u043b\u044c\u0441\u043a\u0430\u044f_.html\">\u0421\u0435\u043b\u044c\u0441\u043a\u0430\u044f<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1}];
             </script>
             
         </div>
