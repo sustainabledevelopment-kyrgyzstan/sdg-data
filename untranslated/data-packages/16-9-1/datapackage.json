@@ -116,7 +116,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Education of mother",
+                "Образование матери",
                 ""
               ]
             }

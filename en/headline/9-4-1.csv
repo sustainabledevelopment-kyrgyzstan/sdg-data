@@ -1,10 +1,19 @@
 Year,Value,SERIES
-2015,10275.0,Carbon dioxide emissions from fuel combustion
-2016,8840.5,Carbon dioxide emissions from fuel combustion
-2017,9449.1,Carbon dioxide emissions from fuel combustion
-2015,2.4,Carbon dioxide emissions per unit of GDP
-2016,1.9,Carbon dioxide emissions per unit of GDP
-2017,1.8,Carbon dioxide emissions per unit of GDP
-2015,1.6,Carbon dioxide emissions per unit of manufacturing value added
-2016,1.3,Carbon dioxide emissions per unit of manufacturing value added
-2017,1.4,Carbon dioxide emissions per unit of manufacturing value added
+2015,10275.014,Carbon dioxide emissions from fuel combustion
+2016,8840.465,Carbon dioxide emissions from fuel combustion
+2017,9449.068,Carbon dioxide emissions from fuel combustion
+2018,17858.411,Carbon dioxide emissions from fuel combustion
+2019,15172.4,Carbon dioxide emissions from fuel combustion
+2020,14711.29,Carbon dioxide emissions from fuel combustion
+2015,2.386822,Carbon dioxide emissions per unit of GDP
+2016,1.855949,Carbon dioxide emissions per unit of GDP
+2017,1.781244,Carbon dioxide emissions per unit of GDP
+2018,0.032,Carbon dioxide emissions per unit of GDP
+2019,0.0257,Carbon dioxide emissions per unit of GDP
+2020,0.0246,Carbon dioxide emissions per unit of GDP
+2015,1.560781,Carbon dioxide emissions per unit of manufacturing value added
+2016,1.29663,Carbon dioxide emissions per unit of manufacturing value added
+2017,1.355711,Carbon dioxide emissions per unit of manufacturing value added
+2018,0.0737,Carbon dioxide emissions per unit of manufacturing value added
+2019,0.059,Carbon dioxide emissions per unit of manufacturing value added
+2020,0.0589,Carbon dioxide emissions per unit of manufacturing value added
