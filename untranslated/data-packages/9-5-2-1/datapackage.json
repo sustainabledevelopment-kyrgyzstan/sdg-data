@@ -1,0 +1,43 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_INT_UT_MOD",
+                "_L_INT_INV",
+                "_L_INT_IND_DES",
+                "_L_INT_RAT_PROP",
+                "_L_INT_COMP_PROG",
+                "_L_INT_DATABASE",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "9-5-2-1",
+  "title": "Количество объектов интеллектуальной собственности, зарегистрированных в научно-технической сфере"
+}

@@ -1,0 +1,55 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sector: Agriculture",
+                "Sector: Transport",
+                "Sector: Energy",
+                "Sector: Health",
+                "Sector: Education",
+                "Sector: General public services",
+                "Sector: Infrastructure (water supply)",
+                "Sector: Others",
+                "Donor: Republic of China",
+                "Donor: Asian Development Bank",
+                "Donor: World Bank",
+                "Donor: ACG (IBRD, IDA, OPEC Fund, AfDF, KFED)",
+                "Donor: European Bank for Reconstruction and Development",
+                "Donor: German Development Bank KfW",
+                "Donor: Others (EDB, Switzerland, IFAD etc.)",
+                ""
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "10-b-1-1",
+  "title": "Совокупный объем потоков ресурсов в целях развития в разбивке по странам-донорам и видам потоков"
+}
